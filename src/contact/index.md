@@ -44,9 +44,8 @@ layout: layout.html
       </div>
       <div class="column-last column">
         <ul class="contact-list">
-          <li class="contact-list__item">(509) 429-4935</li>
+          <li class="contact-list__item">(509) 407-7097</li>
           <li class="contact-list__item"><a href="mailto:info@jmremodel.us" class="contact-list__link">info@jmremodel.us</a></li>
-          <li class="contact-list__item">24 Hour Service Available</li>
         </ul>
       </div>
     </div>
