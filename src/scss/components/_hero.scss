@@ -1,0 +1,27 @@
+// =============================================================================
+// HERO
+// =============================================================================
+@use "sass:math";
+@import "../component";
+
+
+.hero {
+.container {
+  position: relative;
+
+  overflow: hidden;
+  max-width: none;
+
+height: 800px;
+
+}
+  img {
+    display: block;
+    width: 100%;
+
+
+
+    @include center;
+  }
+
+}

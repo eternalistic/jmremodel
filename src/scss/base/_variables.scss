@@ -1,0 +1,51 @@
+// =============================================================================
+// VARIABLES
+// =============================================================================
+
+// Base font settings.
+//========================================//
+$base-font-size: 16px;
+
+// Colors.
+//========================================//
+
+// General.
+$black: #000;
+$blue: #0d4969;
+$orange: #ff5f13;
+$white: #fff;
+
+// Page.
+//========================================//
+
+// Layout.
+$container-padding: 50px;
+$container-padding--mobile: 20px;
+$container-padding--tablet: 35px;
+$container-width: 1320px;
+$gutter: 16px;
+$header-bottom--height: 100px;
+
+// Border Radius.
+//========================================//
+$global-radius: 5px;
+
+// Z-index.
+//========================================//
+$z-index--company-suggestions: 100;
+$z-index--local-tasks-block:    99;
+$z-index--primary-menu:         98;
+$z-index--secondary-menu:       98;
+$z-index--mobile-menu:          98;
+$z-index--menu-toggle:          98;
+$z-index--mobile-menu-first:    97;
+$z-index--header:               96;
+$z-index--footer-bottom-last:   96;
+$z-index--products-menu:        95;
+$z-index--footer-menu:          94;
+$z-index--language:             94;
+$z-index--breadcrumbs:          93;
+$z-index--marketplace-dropdown:  1;
+$z-index--layout-builder-link:   1;
+$z-index--two-column-content:    1;
+$z-index--background-image:     -1;

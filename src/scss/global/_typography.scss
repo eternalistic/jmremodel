@@ -1,0 +1,144 @@
+// =============================================================================
+// TYPOGRAPHY
+// =============================================================================
+@use "sass:math";
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+}
+
+h1 {
+  color: $blue;
+  font-family: $font-header;
+  font-size: rem(28px);
+  line-height: math.div(34, 28);
+  font-weight: 500;
+  margin-bottom: rem(24px);
+
+  @include breakpoint(medium) {
+    font-size: rem(40px);
+    line-height: math.div(44, 40);
+    margin-bottom: rem(32px);
+  }
+}
+
+h2 {
+  font-family: $font-header;
+  font-size: rem(36px);
+  font-weight: 700;
+  line-height: math.div(36, 24);
+  margin-bottom: rem(10px);
+
+  @include breakpoint(medium) {
+    font-size: rem(84px);
+    line-height: math.div(84, 64);
+    margin-bottom: rem(20px);
+  }
+
+  @include breakpoint(large) {
+    font-size: rem(100px);
+    line-height: math.div(100, 84);
+  }
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+p {
+  font-size: rem(16px);
+  line-height: math.div(22, 16);
+  margin-bottom: rem(24px);
+
+  @include breakpoint(medium) {
+    font-size: rem(18px);
+    line-height: math.div(24, 18);
+  }
+
+  // Bold.
+  strong,
+  b {
+    font-weight: 700;
+  }
+}
+
+// Node content unordered and ordered list.
+.node__content ul,
+.c--block ul {
+  font-family: $font-header;
+  font-size: rem(16px);
+  line-height: math.div(22, 16);
+  margin: 0 0 rem(16px);
+  padding: 0 0 0 rem(40px);
+
+  @include breakpoint(medium) {
+    font-size: rem(18px);
+    line-height: math.div(24, 18);
+    margin-bottom: rem(24px);
+  }
+
+  li {
+
+    // Siblings.
+    + li {
+      margin-top: rem(16px);
+
+      @include breakpoint(medium) {
+        margin-top: rem(24px);
+      }
+    }
+  }
+}
+
+.node__content ul ul,
+.node__content ul ol {
+  margin-bottom: 0;
+  margin-top: rem(16px);
+
+  @include breakpoint(medium) {
+    margin-top: rem(24px);
+  }
+}
+
+// Nested lists.
+ul ul ul ul,
+ul ul ul ul ul ul {
+  list-style-type: circle;
+}
+
+ul ul ul ul ul {
+  list-style-type: disc;
+}
+
+ol ol,
+ol ol ol ol ol {
+  list-style-type: lower-latin;
+}
+
+ol ol ol,
+ol ol ol ol ol ol {
+  list-style-type: lower-roman;
+}
+
+ol ol ol ol {
+  list-style-type: decimal;
+}
+
+strong {
+  font-weight: 700;
+}

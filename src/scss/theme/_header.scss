@@ -1,0 +1,29 @@
+// =============================================================================
+// HEADER
+// =============================================================================
+
+.header {
+  margin-bottom: rem(40px);
+
+  // Container.
+  .container {
+    padding-bottom: rem(20px);
+    padding-top: rem(20px);
+
+    @include breakpoint(medium) {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+// Logo.
+.site-logo {
+  display: block;
+  width: rem(123px);
+
+  @include breakpoint(medium) {
+    width: rem(163px);
+  }
+}

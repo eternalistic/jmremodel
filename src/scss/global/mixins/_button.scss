@@ -1,0 +1,51 @@
+// =============================================================================
+// BUTTON
+// =============================================================================
+
+// Button Base.
+@mixin button-base {
+  border: 2px solid transparent;
+  border-radius: rem($global-radius);
+  cursor: pointer;
+  display: block;
+  font-family: $font-body;
+  font-size: rem(16px);
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-left: 0;
+  margin-right: 0;
+  outline: 2px solid transparent;
+  padding: rem(10px) rem(15px);
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  transition: outline .3s ease;
+  text-transform: uppercase;
+
+  @include breakpoint(medium) {
+    display: inline-block;
+  }
+
+  // Hover and focus.
+  &:hover,
+  &:focus {
+    color: $white !important;
+    outline: 2px solid darken($orange, 10%);
+    text-decoration: none;
+  }
+}
+
+// Primary Blue.
+@mixin button--1 {
+  background-color: $orange;
+  color: $white;
+
+  &:hover {
+    background-color: $orange;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px rgba(0, 91, 200, 0.2);
+  }
+}
