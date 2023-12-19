@@ -34,17 +34,17 @@ layout: layout.html
     <p>Featured items from our portfolio.</p>
     <div class="grid grid--3-column photo-gallery">
       <div class="grid__column">
-        <a href="/images/portfolio/entry/1.webp" data-fancybox="portfolio" data-caption="Caption #1">
+        <a href="/images/portfolio/entry/1.webp" data-fancybox="portfolio" data-caption="Entry room">
           <img src="/images/portfolio/entry/thumbnail/1.jpg" alt="Entry room" />
         </a>
       </div>
       <div class="grid__column">
-        <a href="/images/portfolio/dining/1.webp" data-fancybox="portfolio" data-caption="Caption #1">
-          <img src="/images/portfolio/dining/thumbnail/1.jpg" alt="Dinin room" />
+        <a href="/images/portfolio/dining/1.webp" data-fancybox="portfolio" data-caption="Dining room">
+          <img src="/images/portfolio/dining/thumbnail/1.jpg" alt="Dining room" />
         </a>
       </div>
       <div class="grid__column">
-        <a href="/images/portfolio/dining/2.webp" data-fancybox="portfolio" data-caption="Caption #1">
+        <a href="/images/portfolio/dining/2.webp" data-fancybox="portfolio" data-caption="Dining room">
           <img src="/images/portfolio/dining/thumbnail/2.jpg" alt="Dining room" />
         </a>
       </div>
