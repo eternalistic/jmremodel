@@ -1265,8 +1265,20 @@ body.is-navigation-expanded .primary-menu {
 
 .c--callout {
   background: #f6f5f1;
-  border-radius: 4px;
   padding: 1.25rem;
+  position: relative;
+}
+.c--callout::after {
+  border-color: transparent #1a659e transparent;
+  border-style: solid;
+  border-width: 0 90px 90px 0;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: -0.5rem;
+  top: -0.5rem;
+  width: 0;
+  z-index: -1;
 }
 .c--callout *:last-child {
   margin-bottom: 0;
@@ -1283,9 +1295,8 @@ body.is-navigation-expanded .primary-menu {
   }
 }
 .c--hero {
-  height: 75vh;
+  height: 43.75rem;
   margin-top: -3.125rem;
-  max-height: 43.75rem;
   max-width: none;
   overflow: hidden;
   position: relative;
@@ -1326,7 +1337,7 @@ body.is-navigation-expanded .primary-menu {
 .c--hero__content {
   animation: 1s ease 0s normal forwards 1 fadeUpIn;
   animation-delay: 2s;
-  border-left: 6px solid rgba(247, 197, 159, 0.25);
+  border-left: 6px solid #f7c59f;
   bottom: 0;
   max-width: 45rem;
   opacity: 0;
@@ -1346,6 +1357,19 @@ body.is-navigation-expanded .primary-menu {
 
 .c--intro {
   background: #f6f5f1;
+  position: relative;
+}
+.c--intro::after {
+  border-color: transparent #1a659e transparent;
+  border-style: solid;
+  border-width: 0 90px 90px 0;
+  top: -45px;
+  content: "";
+  height: 0;
+  right: 0;
+  position: absolute;
+  width: 0;
+  z-index: 999;
 }
 .c--intro .eyebrow::before {
   border-left-color: #f6f5f1;
