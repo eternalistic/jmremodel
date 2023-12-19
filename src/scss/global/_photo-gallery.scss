@@ -9,9 +9,12 @@
   a:visited {
     display: block;
     position: relative;
-    outline: 4px solid transparent;
-    outline-offset: -4px;
-    transition: outline-color 0.3s ease;
+
+    @include breakpoint(large) {
+      outline: 4px solid transparent;
+      outline-offset: -4px;
+      transition: outline-color 0.3s ease;
+    }
 
     // Text overlay.
     &::after {

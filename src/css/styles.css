@@ -936,10 +936,16 @@ iframe {
 
 .photo-gallery a,
 .photo-gallery a:visited {
+  display: block;
   position: relative;
-  outline: 4px solid transparent;
-  outline-offset: -4px;
-  transition: outline-color 0.3s ease;
+}
+@media (min-width: 64em) {
+  .photo-gallery a,
+  .photo-gallery a:visited {
+    outline: 4px solid transparent;
+    outline-offset: -4px;
+    transition: outline-color 0.3s ease;
+  }
 }
 .photo-gallery a::after,
 .photo-gallery a:visited::after {
@@ -1453,7 +1459,7 @@ body.is-navigation-expanded .primary-menu {
 .c--hero .container {
   height: 100%;
   position: relative;
-  z-index: 100;
+  z-index: 3;
 }
 .c--hero .fading-slideshow {
   height: 100%;
