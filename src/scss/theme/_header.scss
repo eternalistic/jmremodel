@@ -19,8 +19,8 @@
       align-items: center;
       display: flex;
       justify-content: space-between;
-      padding-bottom: rem($container-padding);
-      padding-top: rem($container-padding);
+      padding-bottom: rem($gutter);
+      padding-top: rem($gutter);
     }
   }
 }

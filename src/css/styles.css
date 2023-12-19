@@ -1107,8 +1107,8 @@ iframe {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 3.125rem;
-    padding-top: 3.125rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
 }
 
