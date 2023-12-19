@@ -4,7 +4,7 @@ layout: layout.html
 <section class="c--hero section-row--first">
   <div class="container">
     <div class="c--hero__content">
-      <h2 class="c--hero__title">We specialize in remodeling and renovation.</h2>
+      <h1 class="c--hero__title">We specialize in remodeling and renovation.</h1>
     </div>
   </div>
   <ul class="fading-slideshow">
@@ -21,8 +21,8 @@ layout: layout.html
       <div class="eyebrow"></div>
       <h2>Overview</h2>
       <p>With 13 years experience in general construction, and 10 years in interior remodel, we know what it takes to deliver quaility results time and time again.</p>
-      <p>Diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.</p>
-      <a href="/contact" class="link-arrow">Learn more about us</a>
+      <p>Use this space to write more about the business and what sets them apart from the competition.</p>
+      <a href="/about" class="link-arrow">Learn more about us</a>
     </div>
   </div>
 </section>
@@ -70,7 +70,7 @@ layout: layout.html
     <div class="c--intro__content">
       <div class="eyebrow"></div>
       <h2>Areas We Serve</h2>
-      <p>Spokane, Liberty Lake, Otis Orchards, Airway Heights, Medical Lake, Rockford, Deer Park, Cheney, Colville, Coeur d'Alene, Post Falls, Hayden, and surrounding areas.</p>
+      <p>Spokane, Liberty Lake, Otis Orchards, Airway Heights, Medical Lake, Rockford, Deer Park, Cheney, Colville, Coeur d'Alene, Post Falls, Hayden and surrounding areas.</p>
       <a href="/contact" class="link-arrow">Contact us</a>
     </div>
   </div>

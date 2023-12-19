@@ -47,7 +47,6 @@ layout: layout.html
         <p>J&M Remodel LLC is located in Rockford, WA.
         <p>We are licensed, bonded and insured in the state of Washington.</p>
         <p><strong>License Number</strong><br>604710435-001-0001</p>
-        <p><a href="#">View current license</a></p>
       </div>
     </div>
   </div>
