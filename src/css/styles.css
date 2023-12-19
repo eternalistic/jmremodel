@@ -937,15 +937,10 @@ iframe {
 .photo-gallery a,
 .photo-gallery a:visited {
   display: block;
+  outline-offset: -4px;
+  outline: 4px solid transparent;
   position: relative;
-}
-@media (min-width: 64em) {
-  .photo-gallery a,
-  .photo-gallery a:visited {
-    outline: 4px solid transparent;
-    outline-offset: -4px;
-    transition: outline-color 0.3s ease;
-  }
+  transition: outline-color 0.3s ease;
 }
 .photo-gallery a::after,
 .photo-gallery a:visited::after {
