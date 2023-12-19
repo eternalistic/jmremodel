@@ -9,6 +9,7 @@ layout: layout.html
 <section id="contact-us" class="section-row contact-us">
     <div class="two-column two-column__50-50">
       <div class="column-first column">
+        <p>Located in Rockford, WA.</p>
         <p>For more information about our services please fill out the form below or give us a call.</p>
         <form
           name="contact"

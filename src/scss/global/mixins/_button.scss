@@ -31,18 +31,18 @@
   &:hover,
   &:focus {
     color: $white !important;
-    outline: 2px solid darken($orange, 10%);
+    outline: 2px solid darken($orange-1, 10%);
     text-decoration: none;
   }
 }
 
 // Primary Blue.
 @mixin button--1 {
-  background-color: $orange;
+  background-color: $orange-1;
   color: $white;
 
   &:hover {
-    background-color: $orange;
+    background-color: $orange-1;
   }
 
   &:focus {

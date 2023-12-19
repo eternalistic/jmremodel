@@ -73,7 +73,7 @@
   // Link.
   .menu-item__link,
   .menu-item__link:visited {
-    color: $blue;
+    color: $blue-1;
     display: block;
     padding-bottom: rem(10px);
     padding-top: rem(10px);
@@ -87,11 +87,11 @@
     // Hover and focus.
     &:hover,
     &:focus {
-      color: $orange;
+      color: $orange-1;
       text-decoration: none;
 
       @include breakpoint(medium) {
-        border-bottom-color: $orange;
+        border-bottom-color: $blue-2;
       }
     }
   }

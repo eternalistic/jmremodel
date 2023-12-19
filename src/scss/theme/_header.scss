@@ -3,12 +3,12 @@
 // =============================================================================
 
 .header {
-  margin-bottom: rem(40px);
+  margin-bottom: rem(50px);
 
   // Container.
   .container {
-    padding-bottom: rem(20px);
-    padding-top: rem(20px);
+    padding-bottom: rem(25px);
+    padding-top: rem(25px);
 
     @include breakpoint(medium) {
       align-items: center;
@@ -24,6 +24,6 @@
   width: rem(123px);
 
   @include breakpoint(medium) {
-    width: rem(163px);
+    width: rem(140px);
   }
 }

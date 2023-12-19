@@ -30,14 +30,14 @@ body {
 
   // Success.
   &.page-success {
-    background: $blue;
+    background: $blue-1;
   }
 }
 
 // Links.
 a,
 a:visited {
-  color: $blue;
+  color: $blue-1;
   text-decoration: underline;
   transition: color .3s ease;
 
@@ -50,12 +50,12 @@ a:visited {
 
 // Selection.
 ::selection {
-  background-color: lighten($blue, 20%) !important;
+  background-color: lighten($blue-1, 20%) !important;
   color: $white !important;
 }
 
 // Focus.
 :focus {
-  outline: 2px solid $blue;
+  outline: 2px solid $blue-1;
   outline-offset: 2px;
 }

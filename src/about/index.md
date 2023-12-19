@@ -4,7 +4,7 @@ layout: layout.html
 
 <div class="container">
   <div class="eyebrow"></div>
-  <h1>About Us</h1>
+  <h1>About</h1>
   <div class="two-column two-column__50-50">
     <div class="column-first column">
       <p><strong>My name is Joshua Braman and vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</strong></p>
