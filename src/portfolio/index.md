@@ -37,7 +37,7 @@ layout: layout.html
       </a>
     </div>
     <div class="grid__column">
-      <a href="/images/portfolio/caldwell-entry.webp" data-fancybox="portfolio" data-caption="Caption #1">
+      <a href="/images/portfolio/cubby/1.jpg" data-fancybox="portfolio" data-caption="Caption #1">
         <img src="/images/portfolio/cubby/1.jpg" />
       </a>
     </div>
