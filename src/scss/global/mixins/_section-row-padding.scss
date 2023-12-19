@@ -18,6 +18,21 @@
     padding-top: rem(60px);
   }
 
+  // Remove spacing from first.
+  &--first {
+    @include breakpoint(large) {
+      margin-top: - rem(30px);
+    }
+
+    @include breakpoint(large) {
+      margin-top: - rem(45px);
+    }
+
+    @include breakpoint(large) {
+      margin-top: - rem(60px);
+    }
+  }
+
   // Remove spacing from last.
   &--last {
     @include breakpoint(large) {

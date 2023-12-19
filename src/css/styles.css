@@ -495,7 +495,7 @@ blockquote {
   font-family: "Libre Baskerville", serif;
   font-size: 1.25rem;
   line-height: 1.5;
-  margin: 1.5rem 0;
+  margin: 0 0 1.5rem;
   padding: 0 0 0 1.5rem;
 }
 @media (min-width: 42.5em) {
@@ -510,6 +510,9 @@ blockquote cite {
   font-size: 1rem;
   line-height: 1.5;
   margin-top: 0.625rem;
+}
+blockquote + blockquote {
+  margin-top: 4rem;
 }
 
 .button,
@@ -704,6 +707,21 @@ a.button:visited.button--1:focus {
   .section-row {
     padding-bottom: 3.75rem;
     padding-top: 3.75rem;
+  }
+}
+@media (min-width: 64em) {
+  .section-row--first {
+    margin-top: -1.875rem;
+  }
+}
+@media (min-width: 64em) {
+  .section-row--first {
+    margin-top: -2.8125rem;
+  }
+}
+@media (min-width: 64em) {
+  .section-row--first {
+    margin-top: -3.75rem;
   }
 }
 @media (min-width: 64em) {
@@ -1296,7 +1314,6 @@ body.is-navigation-expanded .primary-menu {
 }
 .c--hero {
   height: 43.75rem;
-  margin-top: -3.125rem;
   max-width: none;
   overflow: hidden;
   position: relative;
@@ -1378,7 +1395,7 @@ body.is-navigation-expanded .primary-menu {
   right: 0;
   position: absolute;
   width: 0;
-  z-index: 999;
+  z-index: 2;
 }
 .c--intro--accent-top-left::after {
   border-color: #1a659e transparent transparent;
@@ -1390,7 +1407,7 @@ body.is-navigation-expanded .primary-menu {
   left: 0;
   position: absolute;
   width: 0;
-  z-index: 999;
+  z-index: 2;
 }
 
 .c--intro__content {
