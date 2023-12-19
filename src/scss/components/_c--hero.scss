@@ -4,7 +4,18 @@
 @use "sass:math";
 @import "../component";
 
-.hero {
+@keyframes fadeUpIn {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  100% {
+    bottom: rem(32px);
+    opacity: 1;
+  }
+}
+
+.c--hero {
   height: 75vh;
   margin-top: - rem(50px);
   max-height: rem(700px);
@@ -24,21 +35,34 @@
     z-index: 2;
   }
 
-  img {
-    @include center;
-    display: block;
-    width: 100%;
-    z-index: 1;
-  }
-
+  // Container.
   .container {
+    height: 100%;
     position: relative;
     z-index: 100;
+  }
+
+  // Fading slideshow.
+  .fading-slideshow {
     height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    img {
+      @include center;
+      display: block;
+      width: 100%;
+      z-index: 1;
+    }
   }
 }
 
-.hero__content {
+// Content.
+.c--hero__content {
+  animation: fadeUpIn 1.5s;
   border-left: 6px solid rgba($orange-2, 0.25);
   bottom: rem(32px);
   max-width: rem(720px);
@@ -47,7 +71,8 @@
   z-index: 3;
 }
 
-.hero__title {
+// Title.
+.c--hero__title {
   color: $white;
   font-size: rem(42px);
   font-weight: 500;

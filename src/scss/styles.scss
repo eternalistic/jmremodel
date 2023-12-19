@@ -37,13 +37,17 @@
 @import "theme/header";
 @import "theme/nav-toggle";
 @import "theme/page";
+@import "theme/top-link";
+
+// Menu.
+//========================================//
+@import "menu/primary-menu";
 
 // Components.
 //========================================//
-@import "components/contact-menu";
-@import "components/contact-us";
-@import "components/hero";
-@import "components/primary-menu";
-@import "components/projects";
-@import "components/top-link";
-@import "components/who-we-are";
+@import "components/c--callout";
+@import "components/c--hero";
+@import "components/fading-slideshow";
+
+// Pages.
+//========================================//

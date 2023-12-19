@@ -14,9 +14,17 @@ h6 {
   margin: 0;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $blue-1;
   font-family: $font-header;
+}
+
+h1 {
   font-size: rem(28px);
   line-height: math.div(34, 28);
   font-weight: 500;
@@ -30,25 +38,27 @@ h1 {
 }
 
 h2 {
-  font-family: $font-header;
   font-size: rem(36px);
   font-weight: 700;
   line-height: math.div(36, 24);
   margin-bottom: rem(10px);
 
   @include breakpoint(medium) {
-    font-size: rem(84px);
-    line-height: math.div(84, 64);
+    font-size: rem(36px);
+    line-height: math.div(42, 36);
     margin-bottom: rem(20px);
-  }
-
-  @include breakpoint(large) {
-    font-size: rem(100px);
-    line-height: math.div(100, 84);
   }
 }
 
 h3 {
+  font-size: rem(20px);
+  line-height: math.div(28, 20);
+  margin-bottom: rem(24px);
+
+  @include breakpoint(medium) {
+    font-size: rem(24px);
+    line-height: math.div(32, 24);
+  }
 }
 
 h4 {
@@ -141,4 +151,25 @@ ol ol ol ol {
 
 strong {
   font-weight: 700;
+}
+
+blockquote {
+  border-left: 8px solid $blue-2;
+  font-family: $font-header;
+  font-size: rem(20px);
+  line-height: math.div(30, 20);
+  margin: rem(24px) 0;
+  padding: 0 0 0 rem(24px);
+
+  @include breakpoint(medium) {
+    font-size: rem(26px);
+    line-height: math.div(38, 26);
+    padding-left: rem(40px);
+  }
+
+  cite {
+    display: block;
+    font-size: rem(16px);
+    line-height: math.div(24, 16);
+  }
 }

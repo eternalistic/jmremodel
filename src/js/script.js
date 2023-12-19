@@ -19,3 +19,12 @@ menuItemLinks.forEach(function(link) {
     navToggle.classList.toggle('is-active');
   });
 });
+
+// Fading slideshow.
+window.addEventListener("DOMContentLoaded", (e) => {
+  document.querySelectorAll(".fading-slideshow > li").forEach((current) => {
+    current.addEventListener("animationend", (e) => {
+      e.target.parentNode.appendChild(e.target);
+    });
+  });
+});

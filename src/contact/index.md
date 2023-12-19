@@ -7,15 +7,14 @@ layout: layout.html
   <h1>Contact</h1>
   <div class="two-column two-column__50-50">
     <div class="column-first column">
-      <p>Located in Rockford, WA.</p>
-      <p>For more information about our services please fill out the form below or give us a call.</p>
+      <p>For more information about our services please fill out the form below or give us a call at <a href="tel:5094077097">(509) 407-7097</a>.</p>
       <form
         name="contact"
         netlify
         method="POST"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        action="/success"
+        action="/contact/success"
       >
         <div class="form-item form-item__name">
           <label for="name">Name</label>
@@ -43,10 +42,13 @@ layout: layout.html
       </form>
     </div>
     <div class="column-last column">
-      <ul class="contact-list">
-        <li class="contact-list__item">(509) 407-7097</li>
-        <li class="contact-list__item"><a href="mailto:info@jmremodel.us" class="contact-list__link">info@jmremodel.us</a></li>
-      </ul>
+      <div class="c--callout">
+        <h3>Fully Licensed</h3>
+        <p>J&M Remodel LLC is located in Rockford, WA.
+        <p>We are licensed, bonded and insured in the state of Washington.</p>
+        <p><strong>License Number</strong><br>604710435-001-0001</p>
+        <p><a href="#">View current license</a></p>
+      </div>
     </div>
   </div>
 </div>

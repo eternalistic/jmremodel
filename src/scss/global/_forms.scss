@@ -3,7 +3,6 @@
 // =============================================================================
 @use "sass:math";
 
-
 .form-item__group {
   .two-column {
     .form-item {
@@ -39,8 +38,8 @@
     color: $blue-1;
     display: block;
     font-size: rem(16px);
-    font-family: $font-body;
-    line-height: 1.5;
+    font-family: $font-header;
+    line-height: math.div(24, 16);
     margin-bottom: rem(5px);
     padding: 0;
   }
@@ -50,25 +49,20 @@
   textarea {
     background: $white;
     border-radius: rem($global-radius);
-    border: 2px solid rgba($black, 0.5);
+    border: 2px solid #ccc;
     caret-color: $blue-1;
     color: $black;
     font-family: $font-body;
     font-size: rem(16px);
-    line-height: 1.5;
+    line-height: math.div(24, 16);
     outline: none;
-    padding: rem(9px) rem(14px);
-    transition: border-color .3s ease;
+    padding: rem(10px);
+    transition: border-color 0.3s ease;
     width: 100%;
 
     // Last.
     &:last-child {
       margin-bottom: 0;
-    }
-
-    // Hover.
-    &:hover {
-      border-color: $orange-1;
     }
 
     // Focus.

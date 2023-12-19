@@ -1,50 +1,50 @@
 // =============================================================================
 // BUTTON
 // =============================================================================
+@use "sass:math";
 
 // Button Base.
 @mixin button-base {
   border: 2px solid transparent;
-  border-radius: rem($global-radius);
+  border-radius: rem(6px);
   cursor: pointer;
-  display: block;
+  display: inline-block;
   font-family: $font-body;
   font-size: rem(16px);
-  font-weight: 500;
-  letter-spacing: 1px;
-  line-height: 1;
+  font-weight: 600;
+  line-height: math.div(22, 16);
   margin-left: 0;
   margin-right: 0;
-  outline: 2px solid transparent;
-  padding: rem(10px) rem(15px);
+  padding: rem(13px) rem(25px);
   text-align: center;
   text-decoration: none;
   text-shadow: none;
-  transition: outline .3s ease;
   text-transform: uppercase;
+  transition: color 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
 
   @include breakpoint(medium) {
-    display: inline-block;
+    font-size: rem(18px);
+    line-height: math.div(26, 18);
   }
 
   // Hover and focus.
   &:hover,
   &:focus {
-    color: $white !important;
-    outline: 2px solid darken($orange-1, 10%);
     text-decoration: none;
   }
 }
 
 // Primary Blue.
 @mixin button--1 {
-  background-color: $orange-1;
+  background-color: $blue-1;
   color: $white;
 
+  // Hover.
   &:hover {
     background-color: $orange-1;
   }
 
+  // Focus.
   &:focus {
     box-shadow: 0 0 0 2px rgba(0, 91, 200, 0.2);
   }

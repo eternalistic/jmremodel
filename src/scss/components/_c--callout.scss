@@ -1,9 +1,16 @@
 // =============================================================================
-// PROJECTS
+// CALLOUT
 // =============================================================================
 @use "sass:math";
 @import "../component";
 
-.projects {
-  background: #ddd;
+.c--callout {
+  background: $beige-1;
+  border-radius: 4px;
+  padding: rem(20px);
+
+  // Remove bottom margin from last item.
+  *:last-child {
+    margin-bottom: 0;
+  }
 }
