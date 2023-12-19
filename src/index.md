@@ -33,18 +33,18 @@ layout: layout.html
     <h2 class="c--portfolio__title">Portfolio</h2>
     <div class="grid grid--3-column">
       <div class="grid__column">
-        <a href="/images/portfolio/caldwell-entry.webp" data-fancybox="portfolio" data-caption="Caption #1">
-          <img src="/images/portfolio/caldwell-entry.webp" />
+        <a href="/images/portfolio/entry/1.webp" data-fancybox="portfolio" data-caption="Caption #1">
+          <img src="/images/portfolio/entry/1.webp" />
         </a>
       </div>
       <div class="grid__column">
-        <a href="/images/portfolio/caldwell-dining.webp" data-fancybox="portfolio" data-caption="Caption #1">
-          <img src="/images/portfolio/caldwell-dining.webp" />
+        <a href="/images/portfolio/dining/1.webp" data-fancybox="portfolio" data-caption="Caption #1">
+          <img src="/images/portfolio/dining/1.webp" />
         </a>
       </div>
       <div class="grid__column">
-        <a href="/images/portfolio/caldwell-dining-2.webp" data-fancybox="portfolio" data-caption="Caption #1">
-          <img src="/images/portfolio/caldwell-dining-2.webp" />
+        <a href="/images/portfolio/dining/2.webp" data-fancybox="portfolio" data-caption="Caption #1">
+          <img src="/images/portfolio/dining/2.webp" />
         </a>
       </div>
     </div>
