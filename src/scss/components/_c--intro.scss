@@ -7,20 +7,6 @@
   background: $beige-1;
   position: relative;
 
-  // Triangle
-  &::after {
-    border-color: transparent $blue-2 transparent;
-    border-style: solid;
-    border-width: 0 90px 90px 0;
-    top: -45px;
-    content: "";
-    height: 0;
-    right: 0;
-    position: absolute;
-    width: 0;
-    z-index: 999;
-  }
-
   // Eyebrow.
   .eyebrow {
     &::before {
@@ -35,6 +21,40 @@
   // Remove bottom margin from last item.
   *:last-child {
     margin-bottom: 0;
+  }
+
+  // Accent top right.
+  &--accent-top-right {
+    // Triangle.
+    &::after {
+      border-color: transparent $blue-2 transparent;
+      border-style: solid;
+      border-width: 0 90px 90px 0;
+      top: -45px;
+      content: "";
+      height: 0;
+      right: 0;
+      position: absolute;
+      width: 0;
+      z-index: 999;
+    }
+  }
+
+  // Accent top left.
+  &--accent-top-left {
+    // Triangle.
+    &::after {
+      border-color: $blue-2 transparent transparent;
+      border-style: solid;
+      border-width: 90px 90px 0 0;
+      top: -45px;
+      content: "";
+      height: 0;
+      left: 0;
+      position: absolute;
+      width: 0;
+      z-index: 999;
+    }
   }
 }
 

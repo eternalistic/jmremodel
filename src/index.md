@@ -15,7 +15,7 @@ layout: layout.html
   </ul>
 </section>
 
-<section class="c--intro section-row">
+<section class="c--intro c--intro--accent-top-right section-row">
   <div class="container">
     <div class="c--intro__content">
       <div class="eyebrow"></div>
@@ -63,7 +63,7 @@ layout: layout.html
   </div>
 </section>
 
-<section class="c--intro section-row section-row--last">
+<section class="c--intro c--intro--accent-top-left section-row section-row--last">
   <div class="container">
     <div class="c--intro__content">
       <div class="eyebrow"></div>

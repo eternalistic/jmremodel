@@ -1359,7 +1359,16 @@ body.is-navigation-expanded .primary-menu {
   background: #f6f5f1;
   position: relative;
 }
-.c--intro::after {
+.c--intro .eyebrow::before {
+  border-left-color: #f6f5f1;
+}
+.c--intro .eyebrow::after {
+  border-right-color: #f6f5f1;
+}
+.c--intro *:last-child {
+  margin-bottom: 0;
+}
+.c--intro--accent-top-right::after {
   border-color: transparent #1a659e transparent;
   border-style: solid;
   border-width: 0 90px 90px 0;
@@ -1371,14 +1380,17 @@ body.is-navigation-expanded .primary-menu {
   width: 0;
   z-index: 999;
 }
-.c--intro .eyebrow::before {
-  border-left-color: #f6f5f1;
-}
-.c--intro .eyebrow::after {
-  border-right-color: #f6f5f1;
-}
-.c--intro *:last-child {
-  margin-bottom: 0;
+.c--intro--accent-top-left::after {
+  border-color: #1a659e transparent transparent;
+  border-style: solid;
+  border-width: 90px 90px 0 0;
+  top: -45px;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  width: 0;
+  z-index: 999;
 }
 
 .c--intro__content {
