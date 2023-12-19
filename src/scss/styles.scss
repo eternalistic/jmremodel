@@ -21,10 +21,11 @@
 // ^ Load these first, in order.
 
 @import "global/buttons";
-@import "global/embla";
+@import "global/fading-slideshow";
 @import "global/forms";
 @import "global/helpers";
 @import "global/media";
+@import "global/photo-gallery";
 
 // Layout.
 //========================================//
@@ -49,7 +50,6 @@
 @import "components/c--hero";
 @import "components/c--intro";
 @import "components/c--portfolio";
-@import "components/fading-slideshow";
 
 // Pages.
 //========================================//
