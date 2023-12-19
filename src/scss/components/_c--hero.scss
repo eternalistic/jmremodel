@@ -15,10 +15,14 @@
 }
 
 .c--hero {
-  height: rem(700px);
+  height: rem(400px);
   max-width: none;
   overflow: hidden;
   position: relative;
+
+  @include breakpoint(large) {
+    height: rem(700px);
+  }
 
   // Overlay.
   &::after {
@@ -51,8 +55,14 @@
     img {
       @include center;
       display: block;
-      width: 100%;
+      max-width: none;
+      width: auto;
       z-index: 1;
+
+      @include breakpoint(large) {
+        max-width: 100%;
+        width: 100%;
+      }
     }
   }
 }
@@ -73,9 +83,15 @@
 // Title.
 .c--hero__title {
   color: $white;
-  font-size: rem(48px);
+  font-size: rem(24px);
   font-weight: 500;
-  line-height: math.div(64, 48);
+  line-height: math.div(32, 24);
   margin: 0;
+  padding-right: rem($container-padding);
   text-shadow: 0 2px 2px rgba($black, .5);
+
+  @include breakpoint(large) {
+    font-size: rem(48px);
+    line-height: math.div(64, 48);
+  }
 }
