@@ -31,7 +31,7 @@ layout: layout.html
   <div class="container">
     <div class="eyebrow"></div>
     <h2 class="c--portfolio__title">Portfolio</h2>
-    <p>Featured items from our portfolio.</p>
+    <p>Featured projects from our recent work.</p>
     <div class="grid grid--3-column photo-gallery">
       <div class="grid__column">
         <a href="/images/portfolio/entry/1.webp" data-fancybox="portfolio" data-caption="Entry room">
