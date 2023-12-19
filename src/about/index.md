@@ -15,7 +15,9 @@ layout: layout.html
       <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
     </div>
     <div class="column-last column">
-      <img src="/images/family.webp" alt="Braman family" />
+      <div class="with-accent">
+        <img src="/images/family.webp" alt="Braman family" />
+      </div>
     </div>
   </div>
 </div>

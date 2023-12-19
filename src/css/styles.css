@@ -892,6 +892,26 @@ a.button:visited.button--1:focus {
   background-color: #ff6b35;
 }
 
+.with-accent {
+  position: relative;
+}
+.with-accent::after {
+  border-color: transparent #1a659e transparent;
+  border-style: solid;
+  border-width: 0 120px 120px 0;
+  top: -0.5rem;
+  content: "";
+  height: 0;
+  right: -0.5rem;
+  position: absolute;
+  width: 0;
+  z-index: 0;
+}
+.with-accent > * {
+  position: relative;
+  z-index: 1;
+}
+
 img {
   border: 0;
   height: auto;
