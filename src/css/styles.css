@@ -1035,6 +1035,7 @@ a:visited {
 a:hover, a:focus,
 a:visited:hover,
 a:visited:focus {
+  color: #ff6b35;
   text-decoration: underline;
 }
 
@@ -1211,7 +1212,7 @@ body.is-navigation-expanded .primary-menu {
   .primary-menu .menu-item__link:hover, .primary-menu .menu-item__link:focus,
   .primary-menu .menu-item__link:visited:hover,
   .primary-menu .menu-item__link:visited:focus {
-    border-bottom-color: #1a659e;
+    border-bottom-color: #ff6b35;
   }
 }
 
