@@ -8,10 +8,10 @@ layout: layout.html
     </div>
   </div>
   <ul class="fading-slideshow">
-    <li><img src="/images/portfolio/dining/1.webp" width="1536" height="1024" alt="Dining room" /></li>
-    <li><img src="/images/portfolio/entry/1.webp" width="1536" height="1024" alt="Entry room" loading="lazy"/></li>
-    <li><img src="/images/portfolio/dining/2.webp" width="1536" height="1024" alt="Dining room" loading="lazy"/></li>
-    <li><img src="/images/portfolio/deck/2.webp" width="1536" height="1024" alt="Deck" loading="lazy"/></li>
+    <li><img src="/images/hero/dining.webp" width="1536" height="1024" alt="Dining room" /></li>
+    <li><img src="/images/hero/entry.webp" width="1536" height="1024" alt="Entry room" loading="lazy"/></li>
+    <li><img src="/images/hero/dining2.webp" width="1536" height="1024" alt="Dining room" loading="lazy"/></li>
+    <li><img src="/images/hero/deck.webp" width="1536" height="1024" alt="Deck" loading="lazy"/></li>
   </ul>
 </section>
 

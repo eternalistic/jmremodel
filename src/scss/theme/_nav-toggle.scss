@@ -49,7 +49,7 @@
       background-color: $orange-1;
       content: "";
       display: block;
-      height: 2px;
+      height: rem(2px);
       left: 0;
       position: absolute;
       transition-duration: .3s, .3s;

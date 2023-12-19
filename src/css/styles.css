@@ -1191,7 +1191,7 @@ iframe {
   background-color: #ff6b35;
   content: "";
   display: block;
-  height: 2px;
+  height: 0.125rem;
   left: 0;
   position: absolute;
   transition-duration: 0.3s, 0.3s;
@@ -1507,7 +1507,7 @@ body.is-navigation-expanded .primary-menu {
     border-color: transparent #1a659e transparent;
     border-style: solid;
     border-width: 0 90px 90px 0;
-    top: -45px;
+    top: -2.8125rem;
     content: "";
     height: 0;
     right: 0;
@@ -1521,7 +1521,7 @@ body.is-navigation-expanded .primary-menu {
     border-color: #1a659e transparent transparent;
     border-style: solid;
     border-width: 90px 90px 0 0;
-    top: -45px;
+    top: -2.8125rem;
     content: "";
     height: 0;
     left: 0;
