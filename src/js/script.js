@@ -28,3 +28,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
     });
   });
 });
+
+Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});

@@ -91,3 +91,9 @@
     top: - rem(6px);
   }
 }
+
+// Link arrow.
+.link-arrow,
+.link-arrow:visited {
+  @include link-arrow;
+}

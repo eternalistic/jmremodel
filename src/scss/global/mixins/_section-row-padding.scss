@@ -17,4 +17,19 @@
     padding-bottom: rem(60px);
     padding-top: rem(60px);
   }
+
+  // Remove spacing from last.
+  &--last {
+    @include breakpoint(large) {
+      margin-bottom: - rem(30px);
+    }
+
+    @include breakpoint(large) {
+      margin-bottom: - rem(45px);
+    }
+
+    @include breakpoint(large) {
+      margin-bottom: - rem(60px);
+    }
+  }
 }
