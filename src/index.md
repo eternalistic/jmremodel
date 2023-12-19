@@ -8,9 +8,9 @@ layout: layout.html
     </div>
   </div>
   <ul class="fading-slideshow">
-    <li><img src="/images/portfolio/dining/1.webp" width="1536" height="1024" alt="Dining" loading="lazy"/></li>
-    <li><img src="/images/portfolio/entry/1.webp" width="1536" height="1024" alt="Dining" loading="lazy"/></li>
-    <li><img src="/images/portfolio/dining/2.webp" width="1536" height="1024" alt="Dining" loading="lazy"/></li>
+    <li><img src="/images/portfolio/dining/1.webp" width="1536" height="1024" alt="Dining room" /></li>
+    <li><img src="/images/portfolio/entry/1.webp" width="1536" height="1024" alt="Entry room" loading="lazy"/></li>
+    <li><img src="/images/portfolio/dining/2.webp" width="1536" height="1024" alt="Dining room" loading="lazy"/></li>
     <li><img src="/images/portfolio/deck/2.webp" width="1536" height="1024" alt="Deck" loading="lazy"/></li>
   </ul>
 </section>
@@ -31,21 +31,21 @@ layout: layout.html
   <div class="container">
     <div class="eyebrow"></div>
     <h2 class="c--portfolio__title">Portfolio</h2>
-    <p>Some featured portfolio items.</p>
+    <p>Featured items from our portfolio.</p>
     <div class="grid grid--3-column photo-gallery">
       <div class="grid__column">
         <a href="/images/portfolio/entry/1.webp" data-fancybox="portfolio" data-caption="Caption #1">
-          <img src="/images/portfolio/entry/1.webp" />
+          <img src="/images/portfolio/entry/thumbnail/1.jpg" alt="Entry room" />
         </a>
       </div>
       <div class="grid__column">
         <a href="/images/portfolio/dining/1.webp" data-fancybox="portfolio" data-caption="Caption #1">
-          <img src="/images/portfolio/dining/1.webp" />
+          <img src="/images/portfolio/dining/thumbnail/1.jpg" alt="Dinin room" />
         </a>
       </div>
       <div class="grid__column">
         <a href="/images/portfolio/dining/2.webp" data-fancybox="portfolio" data-caption="Caption #1">
-          <img src="/images/portfolio/dining/2.webp" />
+          <img src="/images/portfolio/dining/thumbnail/2.jpg" alt="Dining room" />
         </a>
       </div>
     </div>
@@ -65,12 +65,12 @@ layout: layout.html
   </div>
 </section>
 
-<section class="c--intro c--intro--accent-top-left section-row section-row--last">
+<section class="c--intro c--intro--accent-top-left c--intro--full-width section-row section-row--last">
   <div class="container">
     <div class="c--intro__content">
       <div class="eyebrow"></div>
       <h2>Areas We Serve</h2>
-      <p>Spokane, Rockford, Deer Park, Cheney, and surrounding areas.</p>
+      <p>Spokane, Liberty Lake, Otis Orchards, Airway Heights, Medical Lake, Rockford, Deer Park, Cheney, Colville, Coeur d'Alene, Post Falls, Hayden, and surrounding areas.</p>
       <a href="/contact" class="link-arrow">Contact us</a>
     </div>
   </div>

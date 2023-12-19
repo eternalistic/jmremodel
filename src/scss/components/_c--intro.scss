@@ -61,4 +61,9 @@
 // Content.
 .c--intro__content {
   max-width: rem(820px);
+
+  // Full width.
+  .c--intro--full-width & {
+    max-width: none;
+  }
 }

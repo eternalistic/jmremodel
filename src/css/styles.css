@@ -913,6 +913,40 @@ iframe {
   max-width: 100%;
 }
 
+.photo-gallery a,
+.photo-gallery a:visited {
+  position: relative;
+  outline: 4px solid transparent;
+  outline-offset: -4px;
+  transition: outline-color 0.3s ease;
+}
+.photo-gallery a::after,
+.photo-gallery a:visited::after {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  color: #fff;
+  content: "Enlarge image";
+  opacity: 0;
+  padding: 0.625rem 1.25rem;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+.photo-gallery a:hover, .photo-gallery a:focus,
+.photo-gallery a:visited:hover,
+.photo-gallery a:visited:focus {
+  outline-color: #ff6b35;
+  transition: opacity 0.3s ease;
+}
+.photo-gallery a:hover::after, .photo-gallery a:focus::after,
+.photo-gallery a:visited:hover::after,
+.photo-gallery a:visited:focus::after {
+  opacity: 1;
+}
+
 .grid {
   grid-gap: 32px;
 }
@@ -1438,6 +1472,9 @@ body.is-navigation-expanded .primary-menu {
 
 .c--intro__content {
   max-width: 51.25rem;
+}
+.c--intro--full-width .c--intro__content {
+  max-width: none;
 }
 
 .c--portfolio .link-arrow {
