@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-  font-size: rem(36px);
+  font-size: rem(24px);
   font-weight: 700;
   line-height: math.div(36, 24);
   margin-bottom: rem(10px);
@@ -156,8 +156,8 @@ strong {
 blockquote {
   border-left: 8px solid $blue-2;
   font-family: $font-header;
-  font-size: rem(20px);
-  line-height: math.div(30, 20);
+  font-size: rem(18px);
+  line-height: math.div(28, 18);
   margin: 0 0 rem(24px);
   padding: 0 0 0 rem(24px);
 
@@ -174,7 +174,12 @@ blockquote {
     margin-top: rem(10px);
   }
 
+  // Siblings.
   + blockquote {
-    margin-top: rem(64px);
+    margin-top: rem(32px);
+
+    @include breakpoint(medium) {
+      margin-top: rem(64px);
+    }
   }
 }

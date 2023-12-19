@@ -9,12 +9,19 @@
   padding-bottom: rem(20px);
   padding-top: rem(20px);
   position: sticky;
-  text-align: right;
+  text-align: center;
   top: 100vh;
 
+  @include breakpoint(medium) {
+    text-align: left;
+  }
+
+  // Container.
   .container {
-    display: flex;
-    justify-content: space-between;
+    @include breakpoint(medium) {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   p {
@@ -25,12 +32,15 @@
 }
 
 .footer-menu {
-  display: flex;
   font-size: rem(12px);
   line-height: math.div(16, 12);
   list-style: none;
   margin: 0;
   padding: 0;
+
+  @include breakpoint(medium) {
+    display: flex;
+  }
 
   // Links.
   a,
@@ -43,14 +53,24 @@
 
   // Siblings.
   + .footer-menu__item {
-    border-left: 1px solid rgba($white, 0.25);
-    margin-left: 1.25rem;
-    padding-left: 1.25rem;
+    margin-top: rem(10px);
+
+    @include breakpoint(medium) {
+      border-left: 1px solid rgba($white, 0.25);
+      margin-left: rem(18px);
+      margin-top: 0;
+      padding-left: rem(18px);
+    }
   }
 }
 
-
+// Copyright.
 .footer__copyright {
-  flex: 1;
-  text-align: right;
+  margin-top: rem(10px);
+
+  @include breakpoint(medium) {
+    flex: 1;
+    margin-top: 0;
+    text-align: right;
+  }
 }

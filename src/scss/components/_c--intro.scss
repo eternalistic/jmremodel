@@ -27,16 +27,18 @@
   &--accent-top-right {
     // Triangle.
     &::after {
-      border-color: transparent $blue-2 transparent;
-      border-style: solid;
-      border-width: 0 90px 90px 0;
-      top: -45px;
-      content: "";
-      height: 0;
-      right: 0;
-      position: absolute;
-      width: 0;
-      z-index: 2;
+      @include breakpoint(large) {
+        border-color: transparent $blue-2 transparent;
+        border-style: solid;
+        border-width: 0 90px 90px 0;
+        top: -45px;
+        content: "";
+        height: 0;
+        right: 0;
+        position: absolute;
+        width: 0;
+        z-index: 2;
+      }
     }
   }
 
@@ -44,16 +46,18 @@
   &--accent-top-left {
     // Triangle.
     &::after {
-      border-color: $blue-2 transparent transparent;
-      border-style: solid;
-      border-width: 90px 90px 0 0;
-      top: -45px;
-      content: "";
-      height: 0;
-      left: 0;
-      position: absolute;
-      width: 0;
-      z-index: 2;
+      @include breakpoint(large) {
+        border-color: $blue-2 transparent transparent;
+        border-style: solid;
+        border-width: 90px 90px 0 0;
+        top: -45px;
+        content: "";
+        height: 0;
+        left: 0;
+        position: absolute;
+        width: 0;
+        z-index: 2;
+      }
     }
   }
 }

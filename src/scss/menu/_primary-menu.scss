@@ -10,8 +10,9 @@
     left: 0;
     padding: rem(20px);
     position: absolute;
-    top: rem($header-bottom--height);
+    top: rem($header-height--mobile);
     width: 100%;
+    z-index: $z-index--mobile-menu;
 
     // Blur background color.
     @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
@@ -36,7 +37,6 @@
     margin: 0;
     padding: 0;
     text-align: center;
-
     text-transform: uppercase;
 
     @include breakpoint(medium) {
@@ -73,7 +73,7 @@
   // Link.
   .menu-item__link,
   .menu-item__link:visited {
-    color: $blue-1;
+    color: $white;
     display: block;
     padding-bottom: rem(10px);
     padding-top: rem(10px);
@@ -81,6 +81,7 @@
 
     @include breakpoint(medium) {
       border-bottom: 2px solid transparent;
+      color: $blue-1;
       transition: border-bottom-color 0.3s ease;
     }
 

@@ -20,11 +20,9 @@
 
   // Remove spacing from first.
   &--first {
-    @include breakpoint(large) {
-      margin-top: - rem(30px);
-    }
+    margin-top: - rem(30px);
 
-    @include breakpoint(large) {
+    @include breakpoint(medium) {
       margin-top: - rem(45px);
     }
 
@@ -35,11 +33,9 @@
 
   // Remove spacing from last.
   &--last {
-    @include breakpoint(large) {
-      margin-bottom: - rem(30px);
-    }
+    margin-bottom: - rem(30px);
 
-    @include breakpoint(large) {
+    @include breakpoint(medium) {
       margin-bottom: - rem(45px);
     }
 
