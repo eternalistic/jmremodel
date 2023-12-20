@@ -1,4 +1,5 @@
 module.exports = function(eleventyConfig) {
+	eleventyConfig.addGlobalData('currentYear', '2024');
   [
     'src/css',
     'src/images/',
