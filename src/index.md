@@ -8,10 +8,34 @@ layout: layout.html
     </div>
   </div>
   <ul class="fading-slideshow">
-    <li><img src="/images/hero/dining.webp" width="1536" height="1024" alt="Dining room" /></li>
-    <li><img src="/images/hero/entry.webp" width="1536" height="1024" alt="Entry room" loading="lazy"/></li>
-    <li><img src="/images/hero/dining2.webp" width="1536" height="1024" alt="Dining room" loading="lazy"/></li>
-    <li><img src="/images/hero/deck.webp" width="1536" height="1024" alt="Deck" loading="lazy"/></li>
+    <li>
+    <picture>
+      <source srcset="/images/hero/dining.webp" media="(min-width: 1024px)" type="image/jpeg">
+      <source srcset="/images/hero/dining--small.webp" type="image/jpeg">
+      <img src="/images/hero/dining.webp" alt="Dining room" typeof="foaf:Image">
+    </picture>
+    </li>
+    <li>
+      <picture>
+        <source srcset="/images/hero/entry.webp" media="(min-width: 1024px)" type="image/jpeg">
+        <source srcset="/images/hero/entry--small.webp" type="image/jpeg">
+        <img src="/images/hero/entry.webp" alt="Entry" typeof="foaf:Image">
+      </picture>
+    </li>
+    <li>
+      <picture>
+        <source srcset="/images/hero/dining2.webp" media="(min-width: 1024px)" type="image/jpeg">
+        <source srcset="/images/hero/dining2--small.webp" type="image/jpeg">
+        <img src="/images/hero/dining2.webp" alt="Dining room" typeof="foaf:Image">
+      </picture>
+    </li>
+    <li>
+      <picture>
+        <source srcset="/images/hero/deck.webp" media="(min-width: 1024px)" type="image/jpeg">
+        <source srcset="/images/hero/deck--small.webp" type="image/jpeg">
+        <img src="/images/hero/deck.webp" alt="Deck" typeof="foaf:Image">
+      </picture>
+    </li>
   </ul>
 </section>
 
@@ -34,18 +58,18 @@ layout: layout.html
     <p>Featured projects from our recent work.</p>
     <div class="grid grid--3-column photo-gallery">
       <div class="grid__column">
-        <a href="/images/portfolio/entry/1.webp" data-fancybox="portfolio" data-caption="Entry room">
-          <img src="/images/portfolio/entry/thumbnail/1.jpg" alt="Entry room" />
+        <a href="/images/portfolio/bathroom/1.webp" data-fancybox="portfolio" data-caption="Bathroom">
+          <img src="/images/portfolio/bathroom/thumbnail/1.webp" alt="Bathroom" />
         </a>
       </div>
       <div class="grid__column">
-        <a href="/images/portfolio/dining/1.webp" data-fancybox="portfolio" data-caption="Dining room">
-          <img src="/images/portfolio/dining/thumbnail/1.jpg" alt="Dining room" />
+        <a href="/images/portfolio/fireplace/2.webp" data-fancybox="portfolio" data-caption="Fireplace">
+          <img src="/images/portfolio/fireplace/thumbnail/2.webp" alt="Fireplace" />
         </a>
       </div>
       <div class="grid__column">
-        <a href="/images/portfolio/dining/2.webp" data-fancybox="portfolio" data-caption="Dining room">
-          <img src="/images/portfolio/dining/thumbnail/2.jpg" alt="Dining room" />
+        <a href="/images/portfolio/kitchen/1.webp" data-fancybox="portfolio" data-caption="Dining room">
+          <img src="/images/portfolio/kitchen/thumbnail/1.webp" alt="Kitchen room" />
         </a>
       </div>
     </div>
