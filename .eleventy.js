@@ -1,5 +1,10 @@
 module.exports = function(eleventyConfig) {
-  ['src/css', 'src/images/', 'src/js/'].forEach(path =>
+  [
+    'src/css',
+    'src/images/',
+    'src/js/',
+    {'src/images/favicon': '/'}
+  ].forEach(path =>
     eleventyConfig.addPassthroughCopy(path)
   );
   return {
