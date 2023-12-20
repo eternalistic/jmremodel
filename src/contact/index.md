@@ -12,8 +12,10 @@ layout: layout.html
         name="contact"
         netlify
         method="POST"
+        netlify-honeypot="bot-field"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
+        data-netlify-recaptcha="true"
         action="/contact/success"
       >
         <div class="form-item form-item__name">
@@ -36,6 +38,12 @@ layout: layout.html
           <label for="message">Message</label>
           <textarea id="message" name="message" rows="5" color="60" /></textarea>
         </div>
+        <p class="form-item form-item__hidden hidden">
+          <label>
+            Don’t fill this out if you’re human: <input name="bot-field" />
+          </label>
+        </p>
+        <div class="form-item" data-netlify-recaptcha="true"></div>
         <div class="form-item form-item__submit">
           <button type="submit" class="button">Send</button>
         </div>
