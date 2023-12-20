@@ -1483,7 +1483,7 @@ body.is-navigation-expanded .primary-menu {
 
 .c--hero__content {
   animation: 1s ease 0s normal forwards 1 fadeUpIn;
-  animation-delay: 2s;
+  animation-delay: 1s;
   border-left: 6px solid #f7c59f;
   bottom: 0;
   opacity: 0;
