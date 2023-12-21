@@ -6,7 +6,6 @@ layout: layout.html
   <div class="eyebrow"></div>
   <h1>Testimonials</h1>
 
-
   <blockquote>
     Josh and his guys were amazing. They worked through some serious adverse weather to get my stuff done. Hard working, detailed, communicative... just some of their great qualities.   Recommend them 10/10, hands down for whatever you need!
     <cite>— Samantha Knight</cite>
