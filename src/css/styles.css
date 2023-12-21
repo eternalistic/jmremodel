@@ -896,7 +896,7 @@ a.button:visited.button--1:focus {
   position: relative;
 }
 .with-accent::after {
-  border-color: transparent #1a659e transparent;
+  border-color: transparent #f7c59f transparent;
   border-style: solid;
   border-width: 0 120px 120px 0;
   top: -0.5rem;
@@ -1406,7 +1406,7 @@ body.is-navigation-expanded .primary-menu {
   position: relative;
 }
 .c--callout::after {
-  border-color: transparent #1a659e transparent;
+  border-color: transparent #f7c59f transparent;
   border-style: solid;
   border-width: 0 90px 90px 0;
   content: "";
@@ -1529,7 +1529,7 @@ body.is-navigation-expanded .primary-menu {
 }
 @media (min-width: 64em) {
   .c--intro--accent-top-right::after {
-    border-color: transparent #1a659e transparent;
+    border-color: transparent #f7c59f transparent;
     border-style: solid;
     border-width: 0 90px 90px 0;
     top: -2.8125rem;
@@ -1543,7 +1543,7 @@ body.is-navigation-expanded .primary-menu {
 }
 @media (min-width: 64em) {
   .c--intro--accent-top-left::after {
-    border-color: #1a659e transparent transparent;
+    border-color: #f7c59f transparent transparent;
     border-style: solid;
     border-width: 90px 90px 0 0;
     top: -2.8125rem;

@@ -28,7 +28,7 @@
     // Triangle.
     &::after {
       @include breakpoint(large) {
-        border-color: transparent $blue-2 transparent;
+        border-color: transparent $orange-2 transparent;
         border-style: solid;
         border-width: 0 90px 90px 0;
         top: - rem(45px);
@@ -47,7 +47,7 @@
     // Triangle.
     &::after {
       @include breakpoint(large) {
-        border-color: $blue-2 transparent transparent;
+        border-color: $orange-2 transparent transparent;
         border-style: solid;
         border-width: 90px 90px 0 0;
         top: - rem(45px);
