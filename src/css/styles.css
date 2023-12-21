@@ -956,6 +956,7 @@ iframe {
   padding: 0.625rem 1.25rem;
   text-decoration: none;
   transition: opacity 0.3s ease;
+  white-space: nowrap;
 }
 .photo-gallery a:hover, .photo-gallery a:focus,
 .photo-gallery a:visited:hover,
