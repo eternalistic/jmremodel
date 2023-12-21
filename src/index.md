@@ -82,8 +82,8 @@ layout: layout.html
     <div class="eyebrow"></div>
     <h2 class="c--testimonial__title">Testimonials</h2>
     <blockquote>
-      Josh was fantastic to work with. Always on time and extremely reliable, which is worth its weight in gold. He came through in a pinch for us and truly worked his butt off. He really cares for your home and treats it with respect. On top of all that, his standards are high and he wants to make sure everything is done just right. Even in our rush situation everything came out so well! I would definitely recommend Josh and would certainly use him again. You won't regret calling him.
-      <cite>— Valerie Caldwell</cite>
+      Josh from J+M designed and built our deck, installed flooring, created a custom floor-to-ceiling stone fireplace with live edge mantle and floating shelves, and the list goes on. Passionate in his craft and reliable in his word, Josh should be your first and last stop for home remodeling and renovation.
+      <cite>— Rich Byers</cite>
     </blockquote>
     <a href="/testimonials" class="link-arrow">Read more from our clients</a>
   </div>
