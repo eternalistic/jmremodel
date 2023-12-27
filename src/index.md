@@ -4,7 +4,7 @@ layout: layout.html
 <section class="c--hero section-row--first">
   <div class="container">
     <div class="c--hero__content">
-      <h1 class="c--hero__title">We specialize in remodeling and renovation.</h1>
+      <h1 class="c--hero__title">We specialize in home remodeling and renovation.</h1>
     </div>
   </div>
   <ul class="fading-slideshow">
