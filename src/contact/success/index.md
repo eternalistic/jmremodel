@@ -1,5 +1,6 @@
 ---
 layout: layout.html
+title: Success
 ---
 
 <div class="container">

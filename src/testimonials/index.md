@@ -1,5 +1,6 @@
 ---
 layout: layout.html
+title: Testimonials
 eleventyNavigation:
   key: Testimonials
 ---

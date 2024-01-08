@@ -1,5 +1,6 @@
 ---
 layout: layout.html
+title: Contact
 eleventyNavigation:
   key: Contact
 ---

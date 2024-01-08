@@ -1,5 +1,6 @@
 ---
 layout: layout.html
+title: Portfolio
 eleventyNavigation:
   key: Portfolio
 ---
