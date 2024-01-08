@@ -1,6 +1,5 @@
 ---
 layout: layout.html
-title: Home
 ---
 <section class="c--hero section-row--first">
   <div class="container">
