@@ -45,7 +45,6 @@ layout: layout.html
       <div class="eyebrow"></div>
       <h2>Overview</h2>
       <p>With 13 years experience in general construction, and 10 years in interior remodel, we know what it takes to deliver quaility results time and time again.</p>
-      <p>Use this space to write more about the business and what sets them apart from the competition.</p>
       <a href="/about" class="link-arrow">Learn more about us</a>
     </div>
   </div>
