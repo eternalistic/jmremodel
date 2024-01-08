@@ -1,5 +1,7 @@
 ---
 layout: layout.html
+eleventyNavigation:
+  key: About
 ---
 
 <div class="container">

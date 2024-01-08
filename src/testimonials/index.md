@@ -1,5 +1,7 @@
 ---
 layout: layout.html
+eleventyNavigation:
+  key: Testimonials
 ---
 
 <div class="container">

@@ -32,7 +32,6 @@
   <body>
     <a id="top"></a>
     <a href="#main-content" class="visually-hidden focusable skip-link">Skip to main content</a>
-
     <header class="header" role="banner">
       <div class="container">
         <a href="/" rel="home" class="site-logo">
@@ -41,11 +40,13 @@
         <button type="button" class="nav-toggle" data-toggle="collapse" aria-expanded="false"><span>Toggle menu</span></button>
         <nav role="navigation" aria-label="Primary Menu" class="primary-menu">
           <h4 class="visually-hidden" id="block-primary-menu">Primary Menu</h4>
+          {% assign navPages = collections.all | eleventyNavigation %}
           <ul class="menu">
-            <li class="menu-item"><a href="/about" class="menu-item__link">About</a></li>
-            <li class="menu-item"><a href="/testimonials" class="menu-item__link">Testimonials</a></li>
-            <li class="menu-item"><a href="/portfolio" class="menu-item__link">Portfolio</a></li>
-            <li class="menu-item"><a href="/contact" class="menu-item__link">Contact</a></li>
+          {%- for entry in navPages %}
+            <li class="menu-item">
+              <a href="{{ entry.url }}" class="menu-item__link{% if entry.url == page.url %} is-active{% endif %}">{{ entry.title }}</a>
+            </li>
+          {%- endfor %}
           </ul>
         </nav>
       </div>

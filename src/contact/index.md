@@ -1,5 +1,7 @@
 ---
 layout: layout.html
+eleventyNavigation:
+  key: Contact
 ---
 
 <div class="container">

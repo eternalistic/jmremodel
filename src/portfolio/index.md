@@ -1,5 +1,7 @@
 ---
 layout: layout.html
+eleventyNavigation:
+  key: Portfolio
 ---
 
 <div class="container">

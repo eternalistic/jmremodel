@@ -95,5 +95,11 @@
         border-bottom-color: $orange-1;
       }
     }
+
+    // Is active.
+    &.is-active {
+      color: $orange-1;
+      border-bottom-color: $orange-1;
+    }
   }
 }

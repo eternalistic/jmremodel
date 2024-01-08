@@ -1399,6 +1399,11 @@ body.is-navigation-expanded .primary-menu {
     border-bottom-color: #ff6b35;
   }
 }
+.primary-menu .menu-item__link.is-active,
+.primary-menu .menu-item__link:visited.is-active {
+  color: #ff6b35;
+  border-bottom-color: #ff6b35;
+}
 
 .c--callout {
   background: #f6f5f1;
