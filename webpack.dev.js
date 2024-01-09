@@ -3,10 +3,8 @@ const path = require('path');
 const autoprefixer = require('autoprefixer');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FileManagerPlugin = require('filemanager-webpack-plugin');
-// const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 // Site specific configuration.
-// const localDomain = 'https://jmremodel.lndo.site';
 const themePath = './src';
 const cssPath = `${themePath}/css`;
 const sassPath = `${themePath}/scss`;
