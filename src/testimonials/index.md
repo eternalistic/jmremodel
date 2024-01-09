@@ -3,6 +3,7 @@ layout: layout.html
 title: Testimonials
 eleventyNavigation:
   key: Testimonials
+  order: 3
 ---
 
 <div class="container">

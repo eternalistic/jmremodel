@@ -3,6 +3,7 @@ layout: layout.html
 title: Contact
 eleventyNavigation:
   key: Contact
+  order: 4
 ---
 
 <div class="container">

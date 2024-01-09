@@ -3,6 +3,7 @@ layout: layout.html
 title: Portfolio
 eleventyNavigation:
   key: Portfolio
+  order: 2
 ---
 
 <div class="container">
