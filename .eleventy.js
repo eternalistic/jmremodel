@@ -2,7 +2,6 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-	eleventyConfig.addGlobalData('currentYear', '2024');
   eleventyConfig.addShortcode('year', () => {
     return `${new Date().getFullYear()}`;
   });
