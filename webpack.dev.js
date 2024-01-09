@@ -54,16 +54,6 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].css',
     }),
-
-    // BrowserSync live reload.
-    // new BrowserSyncPlugin(
-    //   {
-    //     proxy: localDomain,
-    //     files: [`${cssPath}/*.css`],
-    //     injectCss: true,
-    //   },
-    //   { reload: false },
-    // ),
   ],
 
   module: {

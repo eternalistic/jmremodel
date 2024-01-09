@@ -5,13 +5,16 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const FileManagerPlugin = require('filemanager-webpack-plugin');
 
+// Site specific configuration.
+const themePath = './src';
+const cssPath = `${themePath}/css`;
+const sassPath = `${themePath}/scss`;
+
 const entries = {};
-glob
-  .sync('./scss/**/!(_)*.scss')
-  .map(function(file) {
-    const entryKey = path.basename(file, '.scss');
-    entries[entryKey] = file;
-  });
+glob.sync(`${sassPath}/**/!(_)*.scss`).map(function(file) {
+  const entryKey = path.basename(file, '.scss');
+  entries[entryKey] = file;
+});
 
 const mode = 'production';
 
@@ -24,8 +27,8 @@ module.exports = {
     filename: '[name].bundle.js',
     chunkFilename: '[name].[chunkhash].chunk.js',
     // Where the CSS is saved to.
-    path: path.join(__dirname, './css'),
-    publicPath: './css',
+    path: path.join(__dirname, cssPath),
+    publicPath: cssPath,
   },
 
   resolve: {
