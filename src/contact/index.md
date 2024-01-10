@@ -56,7 +56,7 @@ eleventyNavigation:
     <div class="column-last column">
       <div class="c--callout">
         <h3>Fully Licensed</h3>
-        <p>J&M Remodel LLC is located in Rockford, WA.
+        <p>J&M Remodel LLC is located in Spokane Valley, WA.
         <p>We are licensed, bonded and insured in the state of Washington.</p>
         <p><strong>License Number</strong><br>604710435-001-0001</p>
       </div>

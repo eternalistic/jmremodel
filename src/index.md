@@ -43,8 +43,8 @@ layout: layout.html
   <div class="container">
     <div class="c--intro__content">
       <div class="eyebrow"></div>
-      <h2>Overview</h2>
-      <p>With 13 years experience in general construction, and 10 years in interior remodel, we know what it takes to deliver quaility results time and time again.</p>
+      <h2>Better, Faster, Cleaner.</h2>
+      <p>With 13 years of experience in general construction, and 10 years in interior remodeling, we know what it takes to deliver quality results time and time again.</p>
       <a href="/about" class="link-arrow">Learn more about us</a>
     </div>
   </div>
