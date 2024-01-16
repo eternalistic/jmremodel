@@ -10,10 +10,6 @@
 // Browser? Beautiful.
 @import "./node_modules/sass-toolkit/stylesheets/toolkit/kickstart";
 
-// Google Fonts.
-//========================================//
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@400;600;700&display=swap");
-
 // Global.
 //========================================//
 @import "global/sanitize";
@@ -25,6 +21,7 @@
 @import "global/forms";
 @import "global/helpers";
 @import "global/media";
+@import "global/photo-gallery";
 @import "global/photo-gallery";
 
 // Layout.

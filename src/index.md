@@ -12,28 +12,28 @@ layout: layout.html
     <picture>
       <source srcset="/images/hero/dining.webp" media="(min-width: 1024px)" type="image/jpeg">
       <source srcset="/images/hero/dining--small.webp" type="image/jpeg">
-      <img src="/images/hero/dining.webp" alt="Dining room" typeof="foaf:Image">
+      <img src="/images/hero/dining.webp" alt="Dining room" typeof="foaf:Image" width="1536" height="1024">
     </picture>
     </li>
     <li>
       <picture>
         <source srcset="/images/hero/entry.webp" media="(min-width: 1024px)" type="image/jpeg">
         <source srcset="/images/hero/entry--small.webp" type="image/jpeg">
-        <img src="/images/hero/entry.webp" alt="Entry" typeof="foaf:Image">
+        <img src="/images/hero/entry.webp" alt="Entry" typeof="foaf:Image" width="1536" height="1024">
       </picture>
     </li>
     <li>
       <picture>
         <source srcset="/images/hero/dining2.webp" media="(min-width: 1024px)" type="image/jpeg">
         <source srcset="/images/hero/dining2--small.webp" type="image/jpeg">
-        <img src="/images/hero/dining2.webp" alt="Dining room" typeof="foaf:Image">
+        <img src="/images/hero/dining2.webp" alt="Dining room" typeof="foaf:Image" width="1536" height="1024">
       </picture>
     </li>
     <li>
       <picture>
         <source srcset="/images/hero/deck.webp" media="(min-width: 1024px)" type="image/jpeg">
         <source srcset="/images/hero/deck--small.webp" type="image/jpeg">
-        <img src="/images/hero/deck.webp" alt="Deck" typeof="foaf:Image">
+        <img src="/images/hero/deck.webp" alt="Deck" typeof="foaf:Image" width="1536" height="1024">
       </picture>
     </li>
   </ul>
@@ -58,17 +58,17 @@ layout: layout.html
     <div class="grid grid--3-column photo-gallery">
       <div class="grid__column">
         <a href="/images/portfolio/bathroom/1.webp" data-fancybox="portfolio" data-caption="Bathroom">
-          <img src="/images/portfolio/bathroom/thumbnail/1.webp" alt="Bathroom" />
+          <img src="/images/portfolio/bathroom/thumbnail/1.webp" alt="Bathroom" width="385" height="250" />
         </a>
       </div>
       <div class="grid__column">
         <a href="/images/portfolio/fireplace/2.webp" data-fancybox="portfolio" data-caption="Fireplace">
-          <img src="/images/portfolio/fireplace/thumbnail/2.webp" alt="Fireplace" />
+          <img src="/images/portfolio/fireplace/thumbnail/2.webp" alt="Fireplace" width="385" height="250" />
         </a>
       </div>
       <div class="grid__column">
         <a href="/images/portfolio/kitchen/1.webp" data-fancybox="portfolio" data-caption="Dining room">
-          <img src="/images/portfolio/kitchen/thumbnail/1.webp" alt="Kitchen room" />
+          <img src="/images/portfolio/kitchen/thumbnail/1.webp" alt="Kitchen room" width="385" height="250" />
         </a>
       </div>
     </div>

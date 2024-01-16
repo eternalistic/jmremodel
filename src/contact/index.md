@@ -44,7 +44,7 @@ eleventyNavigation:
         </div>
         <p class="form-item form-item__hidden hidden">
           <label>
-            Don’t fill this out if you’re human: <input name="bot-field" />
+            Don't fill this out if you're human: <input name="bot-field" />
           </label>
         </p>
         <div class="form-item" data-netlify-recaptcha="true"></div>
