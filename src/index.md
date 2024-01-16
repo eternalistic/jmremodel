@@ -58,17 +58,17 @@ layout: layout.html
     <div class="grid grid--3-column photo-gallery">
       <div class="grid__column">
         <a href="/images/portfolio/bathroom/1.webp" data-fancybox="portfolio" data-caption="Bathroom">
-          <img src="/images/portfolio/bathroom/thumbnail/1.webp" alt="Bathroom" width="385" height="250" />
+          <img src="/images/portfolio/bathroom/thumbnail/1.webp" alt="Bathroom" width="624" height="405" />
         </a>
       </div>
       <div class="grid__column">
         <a href="/images/portfolio/fireplace/2.webp" data-fancybox="portfolio" data-caption="Fireplace">
-          <img src="/images/portfolio/fireplace/thumbnail/2.webp" alt="Fireplace" width="385" height="250" />
+          <img src="/images/portfolio/fireplace/thumbnail/2.webp" alt="Fireplace" width="624" height="405" />
         </a>
       </div>
       <div class="grid__column">
         <a href="/images/portfolio/kitchen/1.webp" data-fancybox="portfolio" data-caption="Dining room">
-          <img src="/images/portfolio/kitchen/thumbnail/1.webp" alt="Kitchen room" width="385" height="250" />
+          <img src="/images/portfolio/kitchen/thumbnail/1.webp" alt="Kitchen room" width="624" height="405" />
         </a>
       </div>
     </div>
