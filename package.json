@@ -1,7 +1,7 @@
 {
   "name": "jmremodel",
   "version": "1.0.0",
-  "description": "J&amp;M Remodel",
+  "description": "J&M Remodel",
   "main": ".eleventy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
