@@ -90,8 +90,10 @@
   font-weight: 500;
   line-height: math.div(32, 24);
   margin: 0;
+  max-inline-size: 50ch;
   padding-right: rem($container-padding);
   text-shadow: 0 2px 2px rgba($black, .5);
+  text-wrap: balance;
 
   @include breakpoint(large) {
     font-size: rem(48px);
