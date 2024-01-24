@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
     return `${new Date().getFullYear()}`;
   });
   [
+    'src/robots.txt',
     'src/css',
     'src/images/',
     'src/js/',
